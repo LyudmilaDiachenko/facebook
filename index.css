@@ -16,6 +16,7 @@ header {
     margin-bottom: 16px;
     position: fixed;
     background-color: #18191A;
+    z-index: 9999;
 }
 
 .header-start {
