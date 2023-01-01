@@ -75,6 +75,13 @@ header {
     border: none;
 }
 
+.search-eleme:active,
+.search-eleme:hover,
+.search-eleme:focus-visible{
+    outline: 0;
+    outline-offset: 0;
+}
+
 .search-item input::placeholder { 
     color: #b8bbbf;
     cursor: default;
